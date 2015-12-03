@@ -1,0 +1,4 @@
+config.yml
+vendor/bundle
+.bundle
+.egosearch
