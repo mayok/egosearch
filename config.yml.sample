@@ -6,8 +6,8 @@ twitter:
 
   # 検索したい単語
   # -rt をつけるとリツイートを拾わなくなる
-  # 例: "あひる -rt"
-  search_word: ""
+  # 例: ["あひる -rt", "いぬ"]
+  search_word: [""]
 
 slack:
   webhook_url: "SLACK_INCOMING_WEBHOOKS_URL"
