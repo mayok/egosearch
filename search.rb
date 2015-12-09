@@ -20,9 +20,9 @@ class Search
   end
 
   def get_tweets
-    @config["twitter"]["search_word"].map { |word|
+    @config["twitter"]["search_word"].map do |word|
       @client.search(word, lang: "ja", result_type: "recent").first
-    }
+    end
   end
 
   def check(id)
